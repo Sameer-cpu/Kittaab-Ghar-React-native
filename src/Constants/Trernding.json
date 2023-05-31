@@ -1,0 +1,53 @@
+[
+    {
+      "category": "Fiction",
+      "bookName": "To Kill a Mockingbird",
+      "description": "Harper Lee's classic novel explores racial injustice and moral growth through the eyes of Scout Finch."
+    },
+    {
+      "category": "Mystery",
+      "bookName": "The Girl with the Dragon Tattoo",
+      "description": "Stieg Larsson's gripping crime novel introduces Lisbeth Salander and a complex web of intrigue and murder."
+    },
+    {
+      "category": "Science Fiction",
+      "bookName": "Dune",
+      "description": "Frank Herbert's influential sci-fi epic unfolds on the desert planet of Arrakis and explores power, politics, and ecology."
+    },
+    {
+      "category": "Fantasy",
+      "bookName": "The Lord of the Rings",
+      "description": "J.R.R. Tolkien's epic fantasy trilogy follows Frodo's quest to destroy the One Ring and save Middle-earth."
+    },
+    {
+      "category": "Non-Fiction",
+      "bookName": "Sapiens: A Brief History of Humankind",
+      "description": "Yuval Noah Harari's thought-provoking exploration of human history and our impact on the world."
+    },
+    {
+      "category": "Biography",
+      "bookName": "The Diary of a Young Girl",
+      "description": "Anne Frank's powerful and moving account of her life in hiding during the Holocaust."
+    },
+    {
+      "category": "Self-Help",
+      "bookName": "The 7 Habits of Highly Effective People",
+      "description": "Stephen R. Covey's influential guide presents principles for personal and professional success."
+    },
+    {
+      "category": "Business",
+      "bookName": "Rich Dad Poor Dad",
+      "description": "Robert Kiyosaki's personal finance classic explores the mindset and principles for building wealth."
+    },
+    {
+      "category": "Historical Fiction",
+      "bookName": "The Book Thief",
+      "description": "Markus Zusak's novel set in Nazi Germany follows Liesel, a young girl who finds solace in books."
+    },
+    {
+      "category": "Romance",
+      "bookName": "Pride and Prejudice",
+      "description": "Jane Austen's timeless love story follows the spirited Elizabeth Bennet and her tumultuous relationship with Mr. Darcy."
+    }
+  ]
+  

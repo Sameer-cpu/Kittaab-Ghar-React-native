@@ -1,16 +1,13 @@
 import {Image, StyleSheet, Text, View} from 'react-native';
 import {Colors} from '../../../Constants/Colors';
 import {Label} from '../../../Components/Label';
+import {CATEGORY_CART_PROPS} from '../../../Types/HomeScreenProps';
 
-export const CategoryCard = () => {
+export const CategoryCard: React.FC<CATEGORY_CART_PROPS> = ({text = ''}) => {
   return (
     <View style={styles.container}>
       <Image source={require('../../../Assets/img1.jpg')} style={styles.img} />
-      <Label
-        type="h4"
-        text="Motivation & Inspiration"
-        textColor={Colors.SCARPA_FLOW}
-      />
+      <Label type="h4" text={text} textColor={Colors.SCARPA_FLOW} />
     </View>
   );
 };

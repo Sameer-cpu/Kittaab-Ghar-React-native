@@ -2,37 +2,67 @@ import {StyleSheet, Text} from 'react-native';
 import {Colors} from '../Constants/Colors';
 import {LABEL_PROPS} from '../Types/Components';
 
-export const Label: React.FC<LABEL_PROPS> = ({type, text = '', textColor}) => {
+export const Label: React.FC<LABEL_PROPS> = ({
+  type,
+  text = '',
+  textColor,
+  textStyle,
+}) => {
   const renderText = () => {
     switch (type) {
       case 'h1':
         return (
-          <Text style={[styles.h1, {color: textColor ?? Colors.CHARADE}]}>
+          <Text
+            style={[
+              styles.h1,
+              textStyle,
+              {color: textColor ?? Colors.CHARADE},
+            ]}>
             {text}
           </Text>
         );
       case 'h2':
         return (
-          <Text style={[styles.h2, {color: textColor ?? Colors.CHARADE}]}>
+          <Text
+            style={[
+              styles.h2,
+              textStyle,
+              {color: textColor ?? Colors.CHARADE},
+            ]}>
             {text}
           </Text>
         );
       case 'h3':
         return (
-          <Text style={[styles.h3, {color: textColor ?? Colors.CHARADE}]}>
+          <Text
+            style={[
+              styles.h3,
+              textStyle,
+              {color: textColor ?? Colors.CHARADE},
+            ]}>
             {text}
           </Text>
         );
       case 'h4':
         return (
-          <Text style={[styles.h4, {color: textColor ?? Colors.CHARADE}]}>
+          <Text
+            style={[
+              styles.h4,
+              textStyle,
+              {color: textColor ?? Colors.CHARADE},
+            ]}>
             {text}
           </Text>
         );
 
       default:
         return (
-          <Text style={[styles.para, textColor ? {color: textColor} : {}]}>
+          <Text
+            style={[
+              styles.para,
+              textStyle,
+              textColor ? {color: textColor} : {},
+            ]}>
             {text}
           </Text>
         );

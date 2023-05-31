@@ -1,0 +1,128 @@
+[
+    {
+      "category": "Fiction",
+      "bookName": "To Kill a Mockingbird",
+      "description": "A powerful exploration of racial injustice and moral growth in the 1930s American South."
+    },
+    {
+      "category": "Fiction",
+      "bookName": "1984",
+      "description": "A dystopian novel depicting a totalitarian society and the struggle for individual freedom."
+    },
+    {
+      "category": "Fiction",
+      "bookName": "Pride and Prejudice",
+      "description": "A classic tale of love, manners, and social expectations in 19th-century England."
+    },
+    {
+      "category": "Fiction",
+      "bookName": "The Great Gatsby",
+      "description": "A captivating portrayal of the Jazz Age, wealth, and the American Dream."
+    },
+    {
+      "category": "Fiction",
+      "bookName": "The Catcher in the Rye",
+      "description": "A coming-of-age story narrated by a disenchanted teenager questioning societal norms."
+    },
+    {
+      "category": "Non-fiction",
+      "bookName": "Sapiens: A Brief History of Humankind",
+      "description": "An exploration of human history, from the emergence of Homo sapiens to the present."
+    },
+    {
+      "category": "Non-fiction",
+      "bookName": "Becoming",
+      "description": "An intimate memoir by the former First Lady, sharing her experiences, triumphs, and challenges."
+    },
+    {
+      "category": "Non-fiction",
+      "bookName": "The Power of Now",
+      "description": "A spiritual guide that encourages living in the present moment for inner peace and fulfillment."
+    },
+    {
+      "category": "Non-fiction",
+      "bookName": "Guns, Germs, and Steel",
+      "description": "A thought-provoking analysis of how geography and biology shaped human history."
+    },
+    {
+      "category": "Non-fiction",
+      "bookName": "Quiet: The Power of Introverts in a World That Can't Stop Talking",
+      "description": "Explores the strengths and unique qualities of introverted individuals in a society that values extroversion."
+    },
+    {
+      "category": "Mystery/Thriller",
+      "bookName": "The Girl with the Dragon Tattoo",
+      "description": "A gripping thriller that follows a journalist and a hacker as they investigate a decades-old disappearance."
+    },
+    {
+      "category": "Mystery/Thriller",
+      "bookName": "Gone Girl",
+      "description": "A psychological thriller with unexpected twists and a disturbing portrayal of a troubled marriage."
+    },
+    {
+      "category": "Mystery/Thriller",
+      "bookName": "The Da Vinci Code",
+      "description": "An action-packed mystery featuring symbolism, secret societies, and a quest for a hidden truth."
+    },
+    {
+      "category": "Mystery/Thriller",
+      "bookName": "The Silence of the Lambs",
+      "description": "An intense psychological thriller centered around an FBI trainee and a cannibalistic serial killer."
+    },
+    {
+      "category": "Mystery/Thriller",
+      "bookName": "And Then There Were None",
+      "description": "A classic whodunit where ten strangers are trapped on an island, each with a deadly secret."
+    },
+    {
+      "category": "Romance",
+      "bookName": "Outlander",
+      "description": "A time-traveling romance set in Scotland, blending historical fiction and passionate love story."
+    },
+    {
+      "category": "Romance",
+      "bookName": "Me Before You",
+      "description": "A heartwarming yet bittersweet tale of an unconventional relationship between a caregiver and a quadriplegic."
+    },
+    {
+      "category": "Romance",
+      "bookName": "The Notebook",
+      "description": "A poignant love story that spans decades, touching on themes of devotion, fate, and enduring love."
+    },
+    {
+      "category": "Romance",
+      "bookName": "The Fault in Our Stars",
+      "description": "A beautifully written young adult novel about two teenagers with cancer who find love and meaning."
+    },
+    {
+      "category": "Romance",
+      "bookName": "Pride and Prejudice",
+      "description": "A timeless classic featuring a spirited heroine, Elizabeth Bennet, and her tumultuous relationship with Mr. Darcy."
+    },
+    {
+      "category": "Science Fiction/Fantasy",
+      "bookName": "Dune",
+      "description": "A complex and epic science fiction tale set in a distant future, exploring politics, religion, and ecology."
+    },
+    {
+      "category": "Science Fiction/Fantasy",
+      "bookName": "The Hobbit",
+      "description": "A charming adventure following Bilbo Baggins as he embarks on a quest with dwarves and encounters magical creatures."
+    },
+    {
+      "category": "Science Fiction/Fantasy",
+      "bookName": "Ender's Game",
+      "description": "A captivating science fiction novel where a gifted child is trained to lead in an interstellar war."
+    },
+    {
+      "category": "Science Fiction/Fantasy",
+      "bookName": "A Game of Thrones",
+      "description": "The first book in the 'A Song of Ice and Fire' series, a gripping tale of power struggles and fantasy elements."
+    },
+    {
+      "category": "Science Fiction/Fantasy",
+      "bookName": "The Hunger Games",
+      "description": "A dystopian novel set in a post-apocalyptic world where teenagers are forced to participate in a brutal televised competition."
+    }
+  ]
+  

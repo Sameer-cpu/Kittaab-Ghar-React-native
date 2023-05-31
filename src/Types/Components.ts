@@ -1,4 +1,5 @@
 import {ReactNode} from 'react';
+import {StyleProp, TextStyle} from 'react-native';
 
 export interface CONTAINER_PROPS {
   children: ReactNode;
@@ -13,6 +14,7 @@ export interface LABEL_PROPS {
   type?: 'h1' | 'h2' | 'h3' | 'h4' | undefined;
   text: string;
   textColor?: string | undefined;
+  textStyle?: StyleProp<TextStyle>;
 }
 
 export interface BUTTON_PROPS {
