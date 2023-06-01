@@ -1,22 +1,27 @@
-import {View, Image, StyleSheet} from 'react-native';
+import {Image, StyleSheet, TouchableOpacity} from 'react-native';
 import {Label} from '../../../Components/Label';
 import {truncateString} from '../../../Utils/helperMethd';
+import {TRENDING_BOOK_CARD_PROPS} from '../../../Types/HomeScreenProps';
 
-export const TrendingBookCard = () => {
+export const TrendingBookCard: React.FC<TRENDING_BOOK_CARD_PROPS> = ({
+  bookName = '',
+  onPress,
+  styling,
+}) => {
   return (
-    <View>
+    <TouchableOpacity onPress={onPress} style={[styling]}>
       <Image
         style={styles.container}
         source={require('../../../Assets/img1.jpg')}
       />
       <Label
-        text={truncateString('The Power of Positive thinking', 11)}
+        text={truncateString(bookName, 11)}
         type="h3"
+        textStyle={styles.text}
       />
-    </View>
+    </TouchableOpacity>
   );
 };
-('The Power of Positive thinking');
 
 const styles = StyleSheet.create({
   container: {
@@ -24,5 +29,8 @@ const styles = StyleSheet.create({
     width: 94,
     borderRadius: 8,
     marginBottom: 10,
+  },
+  text: {
+    textAlign: 'center',
   },
 });

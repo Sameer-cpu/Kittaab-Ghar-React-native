@@ -21,3 +21,8 @@ export interface BUTTON_PROPS {
   label: string;
   onPress: () => void;
 }
+
+export interface SPACE_PROPS {
+  x?: number | undefined;
+  y?: number | undefined;
+}
