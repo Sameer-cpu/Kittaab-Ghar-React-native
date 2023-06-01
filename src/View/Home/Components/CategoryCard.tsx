@@ -1,18 +1,23 @@
-import {Image, StyleSheet, Text, View} from 'react-native';
+import {Image, StyleSheet, TouchableOpacity, View} from 'react-native';
 import {Colors} from '../../../Constants/Colors';
 import {Label} from '../../../Components/Label';
 import {CATEGORY_CART_PROPS} from '../../../Types/HomeScreenProps';
 
-export const CategoryCard: React.FC<CATEGORY_CART_PROPS> = ({text = ''}) => {
+export const CategoryCard: React.FC<CATEGORY_CART_PROPS> = ({
+  text = '',
+  onPress,
+}) => {
   return (
-    <View style={styles.container}>
+    <TouchableOpacity style={styles.container} onPress={onPress}>
       <Image source={require('../../../Assets/img1.jpg')} style={styles.img} />
       <Label type="h4" text={text} textColor={Colors.SCARPA_FLOW} />
-    </View>
+    </TouchableOpacity>
   );
 };
 const styles = StyleSheet.create({
   container: {
+    marginVertical: 4,
+    marginRight: 8,
     flexDirection: 'row',
     backgroundColor: Colors.GALLERY,
     alignSelf: 'flex-start',
