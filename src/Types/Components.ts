@@ -27,3 +27,8 @@ export interface SPACE_PROPS {
   x?: number | undefined;
   y?: number | undefined;
 }
+
+export interface RATING_PROPS {
+  rating: number;
+  styling?: StyleProp<ViewStyle>;
+}
