@@ -6,4 +6,5 @@ export const Colors = {
   BURNT_SIENNA: '#EC644C',
   SCARPA_FLOW: '#504F58',
   MANATEE: '#95949B',
+  LIGHTING_YELLOW: '#FFC41F',
 };
