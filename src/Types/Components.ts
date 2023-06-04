@@ -1,5 +1,5 @@
 import {ReactNode} from 'react';
-import {StyleProp, TextStyle} from 'react-native';
+import {StyleProp, TextStyle, ViewStyle} from 'react-native';
 
 export interface CONTAINER_PROPS {
   children: ReactNode;
@@ -8,6 +8,7 @@ export interface CONTAINER_PROPS {
 export interface SEARCH_INPUT_PROPS {
   placeholder?: string;
   onChangeText: (val: string) => void;
+  styling?: StyleProp<ViewStyle>;
 }
 
 export interface LABEL_PROPS {

@@ -14,8 +14,13 @@ import {useMemo} from 'react';
 import {TrendingBookCard} from './Components/TrendingBookCard';
 import {AutherCard} from './Components/AutherCard';
 import {Space} from '../../Components/Space';
+import {useNavigation} from '@react-navigation/native';
+import {NativeStackScreenProps} from '@react-navigation/native-stack';
+import {RootStackParamList} from '../../Types/Routes';
 
-export const HomeScreen = () => {
+type Props = NativeStackScreenProps<RootStackParamList, 'Home'>;
+
+export const HomeScreen: React.FC<Props> = ({navigation}) => {
   const list = useMemo(
     () => generateRows(3, categoryData) as CATEGORY_ROW_PROPS[],
     [categoryData],
@@ -29,7 +34,9 @@ export const HomeScreen = () => {
       <TrendingBookCard
         key={index}
         bookName={item?.bookName}
-        onPress={() => {}}
+        onPress={() => {
+          navigation.navigate('SearchScreen');
+        }}
       />
     );
   };

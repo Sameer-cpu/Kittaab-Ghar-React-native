@@ -1,6 +1,7 @@
 import React, {FC} from 'react';
 import {StyleSheet, ScrollView, SafeAreaView} from 'react-native';
 import {CONTAINER_PROPS} from '../Types/Components';
+import {Colors} from '../Constants/Colors';
 export const Container: FC<CONTAINER_PROPS> = ({children}) => {
   return (
     <SafeAreaView style={styles.mainContainer}>
@@ -15,7 +16,7 @@ export const Container: FC<CONTAINER_PROPS> = ({children}) => {
 const styles = StyleSheet.create({
   mainContainer: {
     flex: 1,
-    backgroundColor: 'white',
+    backgroundColor: Colors.WHITE,
   },
   innerContainer: {
     flex: 1,
